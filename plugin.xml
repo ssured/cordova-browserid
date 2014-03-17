@@ -11,8 +11,8 @@
   <name>CordovaPersona</name>
 
   <platform name="ios">
-    <js-module src="www/cordova-persona.js" name="CordovaPersona">
-      <clobbers target="window.presentPersonaDialog" />
+    <js-module src="www/cordova-persona.js" name="CBCordovaPersona">
+      <clobbers target="presentPersonaDialog" />
     </js-module>
 
     <config-file target="config.xml" parent="/widget">
