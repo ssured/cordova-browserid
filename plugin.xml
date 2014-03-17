@@ -15,7 +15,7 @@
       <clobbers target="window.presentPersonaDialog" />
     </js-module>
 
-    <config-file target="config.xml" parent="/widget/plugins">
+    <config-file target="config.xml" parent="/widget">
       <feature name="CBCordovaPersona">
         <param name="ios-package" value="CBCordovaPersona"/>
       </feature>
